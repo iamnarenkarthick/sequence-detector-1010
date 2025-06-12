@@ -46,7 +46,7 @@ This project implements a **1010 sequence detector** using a **Mealy finite stat
    iverilog -o seq_detector sequence_detector_1010.v sequence_detector_1010_tb.v
    vvp seq_detector
    ```
-### 📊 To View Waveform (Optional)
+### 📊 To View Waveform
 
 Add the following snippet inside your testbench:
 ```
